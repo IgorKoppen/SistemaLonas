@@ -1,0 +1,769 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6ABE046D-4693-4EA0-BE39-7F3D090116E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sistema_Lonas.My.MyApplication</StartupObject>
+    <RootNamespace>Sistema_Lonas</RootNamespace>
+    <AssemblyName>Sistema Lonas</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\igork\OneDrive\Área de Trabalho\TrabalhoComIntalador\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sistema Lonas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sistema Lonas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BD8B5EE671C2473A96ECF4349DF6F72C54DCDC97</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Sistema Lonas 2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ClsAgendamento.vb" />
+    <Compile Include="Class\ClsBanco.vb" />
+    <Compile Include="Class\ClsCadastroMateriais.vb" />
+    <Compile Include="Class\ClsContasApagar.vb" />
+    <Compile Include="Class\ClsControle.vb" />
+    <Compile Include="Class\ClsDespesa.vb" />
+    <Compile Include="Class\ClsEmbarcacao.vb" />
+    <Compile Include="Class\ClsEstoque.vb" />
+    <Compile Include="Class\ClsFornecedor.vb" />
+    <Compile Include="Class\ClsFuncionario.vb" />
+    <Compile Include="Class\ClsMarina.vb" />
+    <Compile Include="Class\ClsPagamento.vb" />
+    <Compile Include="Class\ClsEntradaMateriais.vb" />
+    <Compile Include="Class\ClsSaidaDeMaterial.vb" />
+    <Compile Include="Class\ClsValidadorCPFeCNPJ.vb" />
+    <Compile Include="Class\MdlAcesso.vb" />
+    <Compile Include="Consultas\ConsultaCliente.Designer.vb">
+      <DependentUpon>ConsultaCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaDespesasStr.Designer.vb">
+      <DependentUpon>ConsultaDespesasStr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaDespesasStr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConEmbarcacao.Designer.vb">
+      <DependentUpon>ConEmbarcacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConEmbarcacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaEmbarcaoComClie.Designer.vb">
+      <DependentUpon>ConsultaEmbarcaoComClie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaEmbarcaoComClie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaEntradaMatRelat.designer.vb">
+      <DependentUpon>ConsultaEntradaMatRelat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaEntradaMatRelat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaFornecedor.Designer.vb">
+      <DependentUpon>ConsultaFornecedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaFornecedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaFuncionario.Designer.vb">
+      <DependentUpon>ConsultaFuncionario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaFuncionario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaMarina.Designer.vb">
+      <DependentUpon>ConsultaMarina.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaMarina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaMateriais.Designer.vb">
+      <DependentUpon>ConsultaMateriais.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaMateriais.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaPedido.Designer.vb">
+      <DependentUpon>ConsultaPedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaPedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaPedidoPorData.Designer.vb">
+      <DependentUpon>ConsultaPedidoPorData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaPedidoPorData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaSaidaMatRelat.designer.vb">
+      <DependentUpon>ConsultaSaidaMatRelat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaSaidaMatRelat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaTipoDespesa.Designer.vb">
+      <DependentUpon>ConsultaTipoDespesa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaTipoDespesa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaAgendamento.Designer.vb">
+      <DependentUpon>ConsultaAgendamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaAgendamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Agendamento.Designer.vb">
+      <DependentUpon>Agendamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Agendamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ContasApagar.designer.vb">
+      <DependentUpon>ContasApagar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ContasApagar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\CadastroDeMateriais.Designer.vb">
+      <DependentUpon>CadastroDeMateriais.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\CadastroDeMateriais.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Cliente.Designer.vb">
+      <DependentUpon>Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\ClsCliente.vb" />
+    <Compile Include="Class\ClsPedido.vb" />
+    <Compile Include="Form\Despesas.Designer.vb">
+      <DependentUpon>Despesas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Despesas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Embarcacao.Designer.vb">
+      <DependentUpon>Embarcacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Embarcacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\EntradaDeMateriais.Designer.vb">
+      <DependentUpon>EntradaDeMateriais.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\EntradaDeMateriais.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frmlogin.Designer.vb">
+      <DependentUpon>Frmlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frmlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Fornecedor.Designer.vb">
+      <DependentUpon>Fornecedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Fornecedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Funcionarios.Designer.vb">
+      <DependentUpon>Funcionarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Funcionarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Marina.Designer.vb">
+      <DependentUpon>Marina.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Marina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Materiais.Designer.vb">
+      <DependentUpon>Materiais.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Materiais.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmMenu.Designer.vb">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Pagamento.Designer.vb">
+      <DependentUpon>Pagamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Pagamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Pedidos.Designer.vb">
+      <DependentUpon>Pedidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Pedidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SaidaDeMateriais.Designer.vb">
+      <DependentUpon>SaidaDeMateriais.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SaidaDeMateriais.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="relatorios\CrpClientes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrpClientes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="relatorios\CrpDespesas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrpDespesas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="relatorios\CrpEmbarcacao.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrpEmbarcacao.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="relatorios\CrpEntradaMat.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrpEntradaMat.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="relatorios\CrpFornecedor.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrpFornecedor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="relatorios\CrpPedidos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrpPedidos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="relatorios\CrpSaidaMat.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrpSaidaMat.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="relatorios\FrmImp.Designer.vb">
+      <DependentUpon>FrmImp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="relatorios\FrmImp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service References\WsCep\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="Web References\WsCotacao\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Consultas\ConsultaAgendamento.resx">
+      <DependentUpon>ConsultaAgendamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaCliente.resx">
+      <DependentUpon>ConsultaCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaDespesasStr.resx">
+      <DependentUpon>ConsultaDespesasStr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConEmbarcacao.resx">
+      <DependentUpon>ConEmbarcacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaEmbarcaoComClie.resx">
+      <DependentUpon>ConsultaEmbarcaoComClie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaEntradaMatRelat.resx">
+      <DependentUpon>ConsultaEntradaMatRelat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaFornecedor.resx">
+      <DependentUpon>ConsultaFornecedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaFuncionario.resx">
+      <DependentUpon>ConsultaFuncionario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaMarina.resx">
+      <DependentUpon>ConsultaMarina.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaMateriais.resx">
+      <DependentUpon>ConsultaMateriais.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaPedido.resx">
+      <DependentUpon>ConsultaPedido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaPedidoPorData.resx">
+      <DependentUpon>ConsultaPedidoPorData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaSaidaMatRelat.resx">
+      <DependentUpon>ConsultaSaidaMatRelat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ConsultaTipoDespesa.resx">
+      <DependentUpon>ConsultaTipoDespesa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Agendamento.resx">
+      <DependentUpon>Agendamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ContasApagar.resx">
+      <DependentUpon>ContasApagar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\CadastroDeMateriais.resx">
+      <DependentUpon>CadastroDeMateriais.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Cliente.resx">
+      <DependentUpon>Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Despesas.resx">
+      <DependentUpon>Despesas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Embarcacao.resx">
+      <DependentUpon>Embarcacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\EntradaDeMateriais.resx">
+      <DependentUpon>EntradaDeMateriais.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frmlogin.resx">
+      <DependentUpon>Frmlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Fornecedor.resx">
+      <DependentUpon>Fornecedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmMenu.pt-BR.resx">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Funcionarios.resx">
+      <DependentUpon>Funcionarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Marina.resx">
+      <DependentUpon>Marina.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Materiais.resx">
+      <DependentUpon>Materiais.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmMenu.resx">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Pagamento.resx">
+      <DependentUpon>Pagamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Pedidos.resx">
+      <DependentUpon>Pedidos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SaidaDeMateriais.resx">
+      <DependentUpon>SaidaDeMateriais.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="relatorios\CrpClientes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrpClientes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="relatorios\CrpDespesas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrpDespesas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="relatorios\CrpEmbarcacao.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrpEmbarcacao.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="relatorios\CrpEntradaMat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrpEntradaMat.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="relatorios\CrpFornecedor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrpFornecedor.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="relatorios\CrpPedidos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrpPedidos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="relatorios\CrpSaidaMat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrpSaidaMat.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="relatorios\FrmImp.resx">
+      <DependentUpon>FrmImp.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Service References\WsCep\AtendeClienteService.wsdl" />
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.atualizaPagamentoNaEntregaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.atualizaRemessaAgrupadaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.bloquearObjetoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.buscaClienteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.buscaContratoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.buscaDataAtualResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.buscaOpcoesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.buscaPagamentoEntregaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.buscaServicosAdicionaisAtivosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.buscaServicosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.buscaServicosValorDeclaradoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.buscaServicosXServicosAdicionaisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.buscaTarifaValeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.calculaTarifaServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.cancelarObjetoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.cancelarPedidoScolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.clienteERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.consultaCEPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.contratoERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.dimensaoTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.embalagemLRSMaster.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.enderecoERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.fechaPlpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.fechaPlpVariosServicosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.geraDigitoVerificadorEtiquetasResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.getStatusCartaoPostagemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.getStatusPLPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.integrarUsuarioScolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.mensagemParametrizadaTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.obterClienteAtualizacaoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.obterEmbalagemLRSResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.obterMensagemParametrizadaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.pesquisarDimensoesServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.pesquisarEmbalagensPorServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.pesquisarParametrosPorDescricaoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.pesquisarServicosAdicionaisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.retornoCancelamento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.servicoAdicionalTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.servicoAdicionalXML.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.servicoERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.solicitaEtiquetasResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.solicitaPLPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.solicitarPostagemScolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.solicitaXmlPlpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.statusCartao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.statusPlp.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.tipoEmbalagem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.valePostal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.validaEtiquetaPLPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.validaPlpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.validarPostagemReversaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.validarPostagemSimultaneaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.verificaDisponibilidadeServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.verificaModalTransporteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsCep\Sistema_Lonas.WsCep.VerificaSeTodosObjetosCanceladosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Web References\WsCotacao\FachadaWSSGS.wsdl" />
+    <None Include="Web References\WsCotacao\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\WsCotacao\WSSerieVO1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://www3.bcb.gov.br/sgspub/JSP/sgsgeral/FachadaWSSGS.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WsCotacao\</RelPath>
+      <UpdateFromURL>https://www3.bcb.gov.br/sgspub/JSP/sgsgeral/FachadaWSSGS.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Sistema_Lonas_br_gov_bcb_www3_FachadaWSSGSService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\WsCep\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WsCep\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WsCep\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WsCep\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
