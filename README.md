@@ -12,4 +12,6 @@
 <p>Link para dowload: 
 <a href="http://auto-download.com/download/get/clAn0wFyce/crforvs_13_0_12_exe.html">Crytal report Versão:(CRforVS_13_0_12)</a></p>
 <h2>Como instalar:</h2>
-<p>PPara fazer o projeto funcionar precisa instalar todos os itens acima na versão da sua máquina sendo ela 32bit ou 64bit senão pode ocorrer um erro. Para abrir o projeto e necessário ir à pasta dele é abrir (Sistema Lonas 2.sln). Com o projeto aberto e só apertar F5 para rodar isso gerara um arquivo bin debug no diretório(Sistema_LonasTimoneiros\Sistema_Lonas\Sistema Correcao\Sistema Lonas\Sistema Lonas\bin\Debug) nele você colocara o banco de dados e ajuda que estão acima e após isso caso de um problema vá em Project Properties e mude o target CPU para 64x se sua máquina for 32 bits.</p>
+
+<h2>Para ver código:</h2>
+<p>Para fazer o projeto funcionar precisa instalar todos os itens acima na versão da sua máquina sendo ela 32bit ou 64bit senão pode ocorrer um erro. Para abrir o projeto e necessário ir à pasta dele é abrir (Sistema Lonas 2.sln). Com o projeto aberto e só apertar F5 para rodar isso gerara um arquivo bin debug no diretório(Sistema_LonasTimoneiros\Sistema_Lonas\Sistema Correcao\Sistema Lonas\Sistema Lonas\bin\Debug) nele você colocara o banco de dados e ajuda que estão acima e após isso caso de um problema vá em Project Properties e mude o target CPU para 64x se sua máquina for 32 bits.</p>
