@@ -1,4 +1,4 @@
-<h1>Trabalho de PTI do Ensino médio técnico - Software Lonas</h1>
+<h1>Trabalho de PTI do Ensino médio técnico - Software Lonas ERP</h1>
 <h2>Sobre:</h2>
 <p>Esse foi o Projeto de conclusão de curso da FECAP, ele tem com base a resolução de um problema de uma empresa na parte de gestão geral. Nele foi usado vb.net, access database e crytalreport para ser desenvolvido. Funções que o sistema possui são armazenamento de dados no banco, consultas, relatórios.</p>
 <h2>Requisitos:</h2>
