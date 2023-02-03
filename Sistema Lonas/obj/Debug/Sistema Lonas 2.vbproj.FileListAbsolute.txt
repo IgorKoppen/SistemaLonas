@@ -803,3 +803,50 @@ C:\Users\igork\OneDrive\Documentos\GitHub\Sistema_Lonas_Vfinal\TrabalhoComIntala
 C:\Users\igork\OneDrive\Documentos\GitHub\Sistema_Lonas_Vfinal\TrabalhoComIntalador\Sistema_Lonas\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.FrmMenu.pt-BR.resources
 C:\Users\igork\OneDrive\Documentos\GitHub\Sistema_Lonas_Vfinal\TrabalhoComIntalador\Sistema_Lonas\SistemaLonas\Sistema Lonas\obj\Debug\Sistema Lonas 2.vbproj.GenerateResource.Cache
 C:\Users\igork\OneDrive\Documentos\GitHub\Sistema_Lonas_Vfinal\TrabalhoComIntalador\Sistema_Lonas\SistemaLonas\Sistema Lonas\obj\Debug\pt-BR\Sistema Lonas.resources.dll
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaAgendamento.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaCliente.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaDespesasStr.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.CoEmbarcacao.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaEmbarcaoComClie.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaEntradaMatRelat.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaFornecedor.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaFuncionario.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaMarina.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaMateriais.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaPedido.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaPedidoPorData.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaSaidaMatRelat.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ConsultaTipoDespesa.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Agendamento.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.ContasApagar.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.CadastroDeMateriais.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Cliente.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Despesas.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Embarcacao.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.EntradaDeMateriais.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.FrmLogin.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Fornecedor.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Funcionarios.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Marina.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Materiais.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.FrmMenu.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Pagamento.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Pedidos.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.SaidaDeMateriais.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.Resources.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.FrmImp.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema_Lonas.FrmMenu.pt-BR.resources
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema Lonas 2.vbproj.GenerateResource.Cache
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\pt-BR\Sistema Lonas.resources.dll
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema Lonas.exe
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema Lonas.xml
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema Lonas.pdb
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\bin\Debug\Sistema Lonas.exe.config
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\bin\Debug\Sistema Lonas.exe.manifest
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\bin\Debug\Sistema Lonas.application
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\bin\Debug\Sistema Lonas.exe
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\bin\Debug\Sistema Lonas.pdb
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\bin\Debug\Sistema Lonas.xml
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\bin\Debug\pt-BR\Sistema Lonas.resources.dll
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema Lonas.exe.manifest
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema Lonas.application

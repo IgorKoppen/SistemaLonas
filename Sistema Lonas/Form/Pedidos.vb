@@ -54,7 +54,8 @@
             objPed.DataDoPedido = DtaPed.Text
             objPed.PrazoMinimo = DtaMin.Text
             objPed.PrazoMaximo = DtaMax.Text
-            objPed.Pedido = CboPed.SelectedItem.ToString
+            objPed.Descricao = TxtDesc.Text.ToString
+            objPed.Pedido = CboPed.SelectedItem
             objPed.Gravar(novo)
 
             TxtCod.Text = objPed.Codigo
@@ -109,6 +110,7 @@
         DtaMin.Text = objPed.PrazoMinimo
         DtaMax.Text = objPed.PrazoMaximo
         CboPed.SelectedItem = objPed.Pedido
+        TxtDesc.Text = objPed.Descricao
 
     End Sub
 
@@ -161,4 +163,6 @@
 
 
 
+    
+  
 End Class

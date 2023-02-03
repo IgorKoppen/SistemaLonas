@@ -82,6 +82,7 @@
             objbanco.executar_comando(sql)
             Return True
         End If
+
     End Function
 
     Public Function LocalizarPorCodigoOuNome(campo As String) As Boolean

@@ -7,6 +7,7 @@
     Dim m_Pmin As Date
     Dim m_pmax As Date
     Dim m_pedido As String
+    Dim m_descricao As String
 
     Dim sql As String
     Dim objbanco As New ClsBanco
@@ -83,15 +84,23 @@
         End Set
     End Property
 
+    Public Property Descricao() As String
+        Get
+            Return m_descricao
+        End Get
+        Set(ByVal value As String)
+            m_descricao = value
+        End Set
+    End Property
 
     Public Sub Gravar(novo As Boolean)
         If novo = True Then
-            sql = "insert into tabpedido (codcli, nomcli, Valpedtot, dataped, pramin, pramax, Pedido) values ('" & m_codcli & "', '" & m_nomcli & "', '" & m_Vtot & "', '" & m_DatP & "','" & m_Pmin & "','" & m_pmax & "','" & m_pedido & "')"
+            sql = "insert into tabpedido (Codcli, Nomcli, Valpedtot, Dataped, Pramin, Pramax, Pedido,Descricao) values ('" & m_codcli & "', '" & m_nomcli & "', '" & m_Vtot & "', '" & m_DatP & "','" & m_Pmin & "','" & m_pmax & "','" & m_pedido & "','" & m_descricao & "')"
             objbanco.executar_comando(sql)
             sql = "select max(codped) as codigo from tabpedido"
             m_cod = objbanco.buscar_ultimoRegistro(sql)
         Else
-            sql = "Update tabpedido set codcli='" & m_codcli & "', nomcli='" & m_nomcli & "', Valpedtot='" & m_Vtot & "', dataped='" & m_DatP & "', pramin ='" & m_Pmin & "', pramax ='" & m_pmax & "', Pedido='" & m_pedido & "' where codped=" & m_cod
+            sql = "Update tabpedido set Codcli='" & m_codcli & "', Nomcli='" & m_nomcli & "', Valpedtot='" & m_Vtot & "', Dataped='" & m_DatP & "', Pramin ='" & m_Pmin & "', Pramax ='" & m_pmax & "', Pedido='" & m_pedido & "', Descricao='" & m_descricao & "' where codped=" & m_cod
             objbanco.executar_comando(sql)
         End If
     End Sub
@@ -137,6 +146,8 @@
         m_Pmin = objdtLocal.Rows(0).Item(5)
         m_pmax = objdtLocal.Rows(0).Item(6)
         m_pedido = objdtLocal.Rows(0).Item(7)
+        m_descricao = objdtLocal.Rows(0).Item(8)
+
     End Sub
 
     Public Function Localizar_porData(dataini As Date, datafin As Date) As DataTable
@@ -148,7 +159,6 @@
         objda.SelectCommand.Parameters.Add(New OleDb.OleDbParameter("campo2", OleDb.OleDbType.Date))
         objda.SelectCommand.Parameters("campo1").Value = dataini
         objda.SelectCommand.Parameters("campo2").Value = datafin
-
         objds.Tables.Clear()
         objda.Fill(objds)
         Return objds.Tables(0)
