@@ -9,11 +9,13 @@ Public Class FrmMenu
 
 
 
-    Private Sub FrmMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    Private Async Sub FrmMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
             Dim DtsDolar As String
             Dim DtsEuro As String
             Dim cotacaoService = New WsCotacao.FachadaWSSGSService()
+
             DtsDolar = cotacaoService.getUltimoValorVO(10813).ultimoValor.svalor
             DtsEuro = cotacaoService.getUltimoValorVO(21620).ultimoValor.svalor
 
@@ -249,4 +251,6 @@ Public Class FrmMenu
         ConsultaFornecedor.Show()
         ConsultaFornecedor.MdiParent = Me
     End Sub
+
+   
 End Class

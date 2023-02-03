@@ -142,26 +142,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sistema Lonas.exe" size="7367168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sistema Lonas.exe" size="7368192">
       <assemblyIdentity name="Sistema Lonas" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Egm28Jd1+MGxAvCQsdytWwOZC3ghyZN8PRtfJYmC6zc=</dsig:DigestValue>
+        <dsig:DigestValue>C3ZE78RaijE0zxq66vfU7jAL9aRCv5YXq7FzD0grSP8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pt-BR\Sistema Lonas.resources.dll" size="102400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pt-BR\Sistema Lonas.resources.dll" size="94720">
       <assemblyIdentity name="Sistema Lonas.resources" version="1.0.0.0" language="pt-BR" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HkE4iqNY3BZkzpeeadJB2pON4W0lhvHvsUAWuy/JDao=</dsig:DigestValue>
+        <dsig:DigestValue>ORHo6inA3U4m5zOk/2V5m18qJh7eQSdDu0tMnSfJGqM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

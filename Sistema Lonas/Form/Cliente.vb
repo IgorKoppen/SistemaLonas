@@ -188,10 +188,10 @@
         objControle.habilitar_botoes(Me, False)
         GrpLoc.Visible = False
         TxtCod.Enabled = False
-        TxtEst.Enabled = False
-        TxtCid.Enabled = False
-        TxtBai.Enabled = False
-        TxtEnd.Enabled = False
+        TxtEst.Enabled = True
+        TxtCid.Enabled = True
+        TxtBai.Enabled = True
+        TxtEnd.Enabled = True
         TxtCom.Enabled = True
         btnConsultarCep.Enabled = True
         RADpf.Enabled = True

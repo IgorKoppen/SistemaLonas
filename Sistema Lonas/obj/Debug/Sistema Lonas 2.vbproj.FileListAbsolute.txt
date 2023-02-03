@@ -850,3 +850,4 @@ C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\bin\Debug\S
 C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\bin\Debug\pt-BR\Sistema Lonas.resources.dll
 C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema Lonas.exe.manifest
 C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema Lonas.application
+C:\Users\igork\OneDrive\Área de Trabalho\SistemaLonas\Sistema Lonas\obj\Debug\Sistema Lonas 2.vbprojResolveAssemblyReference.cache
